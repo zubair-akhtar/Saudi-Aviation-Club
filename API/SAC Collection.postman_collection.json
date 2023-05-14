@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "554ae932-d28d-4f51-9bd5-6456d1812319",
+		"name": "SAC Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13766607"
+	},
+	"item": [
+		{
+			"name": "GET-Discovery-Forms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-FLUENTFORM-SECRET",
+						"value": "IeiRlav9[%F7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://abq.com.sa/privatejet/wp-json/api/v1/discovery-form/submissions",
+					"protocol": "https",
+					"host": [
+						"abq",
+						"com",
+						"sa"
+					],
+					"path": [
+						"privatejet",
+						"wp-json",
+						"api",
+						"v1",
+						"discovery-form",
+						"submissions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-Membership-Forms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-FLUENTFORM-SECRET",
+						"value": "IeiRlav9[%F7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://abq.com.sa/privatejet/wp-json/api/v1/membership-form/submissions",
+					"protocol": "https",
+					"host": [
+						"abq",
+						"com",
+						"sa"
+					],
+					"path": [
+						"privatejet",
+						"wp-json",
+						"api",
+						"v1",
+						"membership-form",
+						"submissions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
